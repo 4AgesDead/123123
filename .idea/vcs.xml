@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/p2/pythonProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/p2/pythonProject1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pythonProject2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sql/pythonProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sql/pythonProject1" vcs="Git" />
   </component>
 </project>
