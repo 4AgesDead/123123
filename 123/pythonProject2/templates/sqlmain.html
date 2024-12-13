@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css') }}">
+    <title>Title</title>
+</head>
+<body>
+
+{%for film in films%}
+
+<p><h1>{{film.name}}</h1></p>
+<p><h2>{{film.rating}}</h2></p>
+<p><h2>{{film.year}}</h2></p>
+<p><h2>{{film.director}}</h2></p>
+<p><h2>{{film.genre}}</h2></p>
+{%endfor%}
+</body>
+</html>

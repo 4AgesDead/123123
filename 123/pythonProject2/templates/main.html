@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+{%for user in users%}
+
+<p><h1>{{user.name}}</h1></p>
+<p><h2>{{user.position}}</h2></p>
+<p><h2>{{user.skills}}</h2></p>
+
+{% endfor %}
+</body>
+</html>

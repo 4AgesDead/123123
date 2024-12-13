@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Adela Hendricks",
+    "picture": "https://img.freepik.com/premium-photo/portrait-of-a-young-handsome-logistics-manager_1288657-19454.jpg",
+    "position": "Go разработчик",
+    "gender": "female",
+    "age": 40,
+    "skills": "Go, python"
+  },
+  {
+    "id": 2,
+    "name": "Sheri Torres",
+    "picture": "https://img.freepik.com/free-photo/handsome-young-cheerful-man-with-arms-crossed_171337-1073.jpg",
+    "position": "Delphi developer",
+    "gender": "female",
+    "age": 26,
+    "skills": "delphi, pascal, fortran, basic"
+  },
+  {
+    "id": 3,
+    "name": "Burt Stein",
+    "picture": "https://make-photo.com/wp-content/uploads/2019/02/Avoid-These-Stock-Images-5.jpg",
+    "position": "Team lead",
+    "gender": "male",
+    "age": 33,
+    "skills": "делегирование, пользоваться календарем, обсуждать важные вопросы"
+  },
+  {
+    "id": 4,
+    "name": "Bauer Adkins",
+    "picture": "https://img.freepik.com/free-photo/smiley-man-relaxing-outdoors_23-2148739334.jpg",
+    "position": "CTO",
+    "gender": "male",
+    "age": 37,
+    "skills": "very important face"
+  },
+  {
+    "id": 5,
+    "name": "Day Holloway",
+    "picture": "https://img.freepik.com/premium-photo/a-young-russian-woman-casual-attire-photo_939652-10254.jpg",
+    "position": "HR manager",
+    "gender": "male",
+    "age": 35,
+    "skills": "linkedIn, telegram, spam, spam, spam"
+  },
+  {
+    "id": 6,
+    "name": "Austin Cochran",
+    "picture": "https://img.freepik.com/free-photo/close-up-handsome-professional-man-cross-arms-chest-looking-confident-camera-smiling-determined-standing-against-white-background_176420-53771.jpg",
+    "position": "python-develop",
+    "gender": "male",
+    "age": 26,
+    "skills": "python, html"
+  },
+  {
+    "id": 7,
+    "name": "Sheree Love",
+    "picture": "https://img.freepik.com/free-photo/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg",
+    "position": "Django developer",
+    "gender": "female",
+    "age": 33,
+    "skills": "Python, django, flask"
+  }
+]

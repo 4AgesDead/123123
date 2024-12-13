@@ -1,0 +1,14 @@
+[
+{
+"quest" : "u'r low skill, what do u need?",
+ "dif" : 1,
+ "answer" : "play more"
+ },{
+ "quest" : "who love static",
+  "dif" : 5,
+  "answer" : "gays"
+ },{"quest" : "cs need aim?",
+  "dif" : 10,
+  "answer" : "no"
+  }
+  ]

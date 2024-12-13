@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск препаратов</title>
+</head>
+<body>
+    <h2>Форма поиска препаратов</h2>
+    <form action="/result_find/">
+        <select name="type_find">
+            <option value="name">Имя препарата</option>
+            <option value="manufacturer">Производитель</option>
+            <option value="form">Форма</option>
+        </select>
+
+        <label for="search_value"></label>
+        <input type="text" id="search_value" name="search_value" required autocomplete="off"><br><br>
+        <input type="submit" value="Поиск">
+    </form>
+</body>
+</html>

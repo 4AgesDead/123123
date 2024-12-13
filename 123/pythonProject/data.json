@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Иван Иванов",
+    "position": "Менеджер",
+    "hours_worked": 160,
+    "hourly_rate": 20,
+    "phone": "+375 29 123 4567",
+    "email": "ivan.ivanov@example.com"
+  },
+  {
+    "name": "Анна Смирнова",
+    "position": "Разработчик",
+    "hours_worked": 170,
+    "hourly_rate": 25,
+    "phone": "+375 29 234 5678",
+    "email": "anna.smirnova@example.com"
+  },
+  {
+    "name": "Петр Петров",
+    "position": "Аналитик",
+    "hours_worked": 150,
+    "hourly_rate": 22,
+    "phone": "+375 29 345 6789",
+    "email": "petr.petrov@example.com"
+  },
+  {
+    "name": "Мария Кузнецова",
+    "position": "Дизайнер",
+    "hours_worked": 155,
+    "hourly_rate": 18,
+    "phone": "+375 29 456 7890",
+    "email": "maria.kuznetsova@example.com"
+  },
+  {
+    "name": "Алексей Сидоров",
+    "position": "Тестировщик",
+    "hours_worked": 165,
+    "hourly_rate": 21,
+    "phone": "+375 29 567 8901",
+    "email": "alexey.sidorov@example.com"
+  },
+  {
+    "name": "Елена Новикова",
+    "position": "HR-менеджер",
+    "hours_worked": 160,
+    "hourly_rate": 19,
+    "phone": "+375 29 678 9012",
+    "email": "elena.novikova@example.com"
+  },
+  {
+    "name": "Дмитрий Ковалев",
+    "position": "Системный администратор",
+    "hours_worked": 175,
+    "hourly_rate": 23,
+    "phone": "+375 29 789 0123",
+    "email": "dmitry.kovalev@example.com"
+  },
+  {
+    "name": "Ольга Лебедева",
+    "position": "Маркетолог",
+    "hours_worked": 150,
+    "hourly_rate": 20,
+    "phone": "+375 29 890 1234",
+    "email": "olga.lebedeva@example.com"
+  },
+  {
+    "name": "Сергей Морозов",
+    "position": "Программист",
+    "hours_worked": 180,
+    "hourly_rate": 30,
+    "phone": "+375 29 901 2345",
+    "email": "sergey.morozov@example.com"
+  },
+  {
+    "name": "Наталья Воробьева",
+    "position": "Бухгалтер",
+    "hours_worked": 160,
+    "hourly_rate": 22,
+    "phone": "+375 29 012 3456",
+    "email": "natalya.vorobyeva@example.com"
+  },
+  {
+    "name": "Виктория Павлова",
+    "position": "Офис-менеджер",
+    "hours_worked": 155,
+    "hourly_rate": 18,
+    "phone": "+375 29 123 4568",
+    "email": "viktoria.pavlova@example.com"
+  },
+  {
+    "name": "Андрей Федоров",
+    "position": "Инженер",
+    "hours_worked": 170,
+    "hourly_rate": 25,
+    "phone": "+375 29 234 5679",
+    "email": "andrey.fedorov@example.com"
+  },
+  {
+    "name": "Екатерина Соколова",
+    "position": "Аналитик данных",
+    "hours_worked": 165,
+    "hourly_rate": 24,
+    "phone": "+375 29 345 6780",
+    "email": "ekaterina.sokolova@example.com"
+  },
+  {
+    "name": "Максим Кузьмин",
+    "position": "Разработчик",
+    "hours_worked": 175,
+    "hourly_rate": 28,
+    "phone": "+375 29 456 7891",
+    "email": "maksim.kuzmin@example.com"
+  },
+  {
+    "name": "Юлия Григорьева",
+    "position": "Дизайнер",
+    "hours_worked": 160,
+    "hourly_rate": 19,
+    "phone": "+375 29 567 8902",
+    "email": "yulia.grigoryeva@example.com"
+  },
+  {
+    "name": "Игорь Николаев",
+    "position": "Тестировщик",
+    "hours_worked": 170,
+    "hourly_rate": 21,
+    "phone": "+375 29 678 9013",
+    "email": "igor.nikolaev@example.com"
+  },
+  {
+    "name": "Марина Орлова",
+    "position": "HR-менеджер",
+    "hours_worked": 160,
+    "hourly_rate": 20,
+    "phone": "+375 29 789 0124",
+    "email": "marina.orlova@example.com"
+  },
+  {
+    "name": "Александр Киселев",
+    "position": "Системный администратор",
+    "hours_worked": 175,
+    "hourly_rate": 23,
+    "phone": "+375 29 890 1235",
+    "email": "alexander.kiselev@example.com"
+  },
+  {
+    "name": "Татьяна Романова",
+    "position": "Маркетолог",
+    "hours_worked": 150,
+    "hourly_rate": 20,
+    "phone": "+375 29 901 2346",
+    "email": "tatyana.romanova@example.com"
+  },
+  {
+    "name": "Владимир Михайлов",
+    "position": "Программист",
+    "hours_worked": 180,
+    "hourly_rate": 30,
+    "phone": "+375 29 012 3457",
+    "email": "vladimir.mikhailov@example.com"
+  },
+  {
+    "name": "Алина Васильева",
+    "position": "Бухгалтер",
+    "hours_worked": 160,
+    "hourly_rate": 22,
+    "phone": "+375 29 123 4569",
+    "email": "alina.vasileva@example.com"
+  },
+  {
+    "name": "Роман Захаров",
+    "position": "Офис-менеджер",
+    "hours_worked": 155,
+    "hourly_rate": 18,
+    "phone": "+375 29 234 5670",
+    "email": "roman.zakharov@example.com"
+  },
+  {
+    "name": "Светлана Крылова",
+    "position": "Инженер",
+    "hours_worked": 170,
+    "hourly_rate": 25,
+    "phone": "+375 29 345 6781",
+    "email": "svetlana.krylova@example.com"
+  },
+  {
+    "name": "Валерий Попов",
+    "position": "Аналитик данных",
+    "hours_worked": 165,
+    "hourly_rate": 24,
+    "phone": "+375 29 456 7892",
+    "email": "valery.popov@example.com"
+  },
+  {
+    "name": "Оксана Белова",
+    "position": "Разработчик",
+    "hours_worked": 175,
+    "hourly_rate": 28,
+    "phone": "+375 29 567 8903",
+    "email": "oksana.belova@example.com"
+  },
+  {
+    "name": "Галина Егорова",
+    "position": "Дизайнер",
+    "hours_worked": 160,
+    "hourly_rate": 19,
+    "phone": "+375 29 678 9014",
+    "email": "galina.egorova@example.com"
+  }
+    ]
