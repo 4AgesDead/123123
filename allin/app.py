@@ -21,10 +21,28 @@ def all():
             {'id' : i[0],
              'title': i[1],
              'image': i[2],
-             'description': i[3]
+             'description': i[3],
+             'user_name': user_name(i[4])
              }
         )
     return main
+
+def post(id_):
+    cursor.execute("SELECT * FROM posts where id = (?)", [id_])
+    main = []
+    data = cursor.fetchall()[0]
+    main.append(
+        {'id' : data[0],
+         'title': data[1],
+         'image': data[2],
+         'description': data[3],
+         'user_name': user_name(data[4])
+         }
+    )
+    return main
+def user_name(id_):
+    cursor.execute("SELECT * FROM reg where id = (?)", [id_])
+    return cursor.fetchall()[0][2]
 
 @app.route('/add/')
 def adds():
@@ -39,8 +57,8 @@ def save_post():
     title = request.form['title']
     description = request.form['description']
     image.save(f'static/uploads/{image.filename}')
-    cursor.execute('INSERT INTO posts (title, file_name, description) VALUES (?,?,?)',
-                   (title,f'static/uploads/{image.filename}',description))
+    cursor.execute('INSERT INTO posts (title, file_name, description,user_id) VALUES (?,?,?,?)',
+                   (title,f'static/uploads/{image.filename}',description,session['id']))
     con.commit()
     return 'ok'
 @app.route('/')
@@ -58,6 +76,7 @@ def auyhortization():
             if login == i[6] and password == i[7]:
                 session['login'] = True
                 session['username'] = login
+                session['id'] = i[0]
                 session.permanent = False
                 app.permanent_session_lifetime = timedelta(minutes=1)
                 session.modified = True
@@ -99,4 +118,10 @@ def logout():
     session.clear()
     flash('Вы вышли из профиля', 'danger')
     return redirect(url_for('all_in'))
+
+
+@app.route('/posts/<int:id_>')
+def ghfjh(id_):
+    print(post(id_))
+    return render_template('post.html', poste=post(id_)[0])
 app.run(debug=True)
